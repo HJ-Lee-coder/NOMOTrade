@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nomo Trade 개인정보 처리방침 · Privacy Policy</title>
+<meta name="description" content="Nomo Trade 앱의 개인정보 처리방침 / Privacy policy for the Nomo Trade app">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --accent: #2f6bd6;
+    --card: #f7f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101114;
+      --fg: #ececf0;
+      --muted: #9aa0ab;
+      --line: #2a2d34;
+      --accent: #6aa0ff;
+      --card: #181a1f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.6rem; line-height: 1.3; margin: 8px 0 4px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 0.9rem; }
+  .lang-nav { display: flex; gap: 8px; margin: 16px 0 0; }
+  .lang-nav a {
+    display: inline-block; padding: 6px 14px; border: 1px solid var(--line);
+    border-radius: 999px; text-decoration: none; font-size: 0.9rem; background: var(--card);
+  }
+  .box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px; margin: 16px 0; }
+  section + section { margin-top: 56px; }
+</style>
+</head>
+<body>
+<main>
+
+<div class="lang-nav" aria-label="Language">
+  <a href="#ko">한국어</a>
+  <a href="#en">English</a>
+</div>
+
+<!-- ───────────────── 한국어 ───────────────── -->
+<section id="ko" lang="ko">
+  <h1>Nomo Trade 개인정보 처리방침</h1>
+  <p class="meta">시행일: 2026년 11월 18일</p>
+
+  <p>Nomo Trade(이하 "앱")는 미국 주식 자동매매 봇이 조건을 통과시킨 종목을 보여 주는 <strong>정보 제공용 앱</strong>입니다. 이 문서는 앱이 어떤 정보를 다루는지, 그리고 광고 SDK가 어떤 정보를 수집할 수 있는지 설명합니다.</p>
+
+  <h2>1. 운영자가 직접 수집하는 정보</h2>
+  <div class="box">
+    <p>앱은 <strong>계정, 로그인, 이름, 연락처, 위치, 사진, 결제 정보를 요구하거나 수집하지 않습니다.</strong> 운영자는 앱 이용자를 식별할 수 있는 개인정보를 직접 저장하지 않습니다.</p>
+  </div>
+
+  <h2>2. 서버 통신과 접속 기록</h2>
+  <ul>
+    <li>앱은 추천 종목·시장 정보를 읽어 오기 위해 운영자의 데이터 서버(Supabase)에 읽기 요청을 보냅니다. 요청에는 이용자를 식별하는 값이 포함되지 않습니다.</li>
+    <li>서버 호스팅 제공자의 특성상 IP 주소, 요청 시각, 기기·네트워크 정보 같은 일반적인 접속 기록이 서버 측에 남을 수 있습니다. 운영자는 이 기록으로 개인을 식별하거나 마케팅에 사용하지 않습니다.</li>
+  </ul>
+
+  <h2>3. 기기에 저장되는 정보</h2>
+  <ul>
+    <li>오프라인에서도 마지막 정보를 보여 주기 위해, 마지막으로 받은 추천·시장·기록 정보와 차트 일부가 <strong>기기 안에만</strong> 저장됩니다.</li>
+    <li>투자 유의사항 확인 여부(확인한 문서 버전)도 기기 안에 저장됩니다.</li>
+    <li>이 정보는 외부로 전송되지 않으며, 앱을 삭제하면 함께 지워집니다.</li>
+  </ul>
+
+  <h2>4. 광고(Google AdMob)</h2>
+  <ul>
+    <li>앱은 일부 화면에 Google AdMob 배너 광고를 표시할 수 있습니다. 광고는 종목 추천과 관련이 없습니다.</li>
+    <li>Google AdMob SDK는 광고를 제공하고 성과를 측정하기 위해 <strong>광고 식별자(IDFA, 이용자가 추적을 허용한 경우), IP 주소, 기기 정보(모델·OS 버전 등), 광고 상호작용 정보</strong>를 수집할 수 있습니다.</li>
+    <li>이 정보는 Google이 처리하며, 처리 방식은 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google 개인정보처리방침</a>과 <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google이 파트너 사이트 또는 앱의 정보를 사용하는 방식</a>에서 확인할 수 있습니다.</li>
+    <li>이용자가 추적을 허용하지 않으면 맞춤형이 아닌 광고가 표시됩니다.</li>
+  </ul>
+
+  <h2>5. 이용자의 선택</h2>
+  <ul>
+    <li><strong>추적 거부·변경:</strong> iOS <em>설정 &gt; 개인정보 보호 및 보안 &gt; 추적</em>에서 언제든지 앱의 추적 허용 여부를 바꿀 수 있습니다. 허용하지 않아도 앱은 똑같이 사용할 수 있습니다.</li>
+    <li><strong>광고 동의 설정:</strong> 동의 절차가 적용되는 지역(EEA, 영국, 스위스 등)에서는 앱의 "정보·약관" 화면에서 광고 개인정보 설정을 다시 변경할 수 있습니다.</li>
+    <li><strong>삭제:</strong> 앱을 삭제하면 기기에 저장된 모든 정보가 삭제됩니다.</li>
+  </ul>
+
+  <h2>6. 제3자 제공과 국외 처리</h2>
+  <ul>
+    <li>운영자는 개인정보를 판매하지 않으며, 위 4항의 광고 SDK 이외의 제3자에게 이용자 정보를 제공하지 않습니다.</li>
+    <li>데이터 서버(Supabase)와 광고 서비스(Google)는 해외 서버에서 정보를 처리할 수 있습니다.</li>
+  </ul>
+
+  <h2>7. 아동</h2>
+  <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 알면서 수집하지 않습니다.</p>
+
+  <h2>8. 방침의 변경</h2>
+  <p>이 방침이 바뀌면 이 페이지에 변경된 내용과 시행일을 게시합니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>개인정보와 관련한 문의는 <a href="https://github.com/HJ-Lee-coder/NOMOTrade/issues" target="_blank" rel="noopener">GitHub Issues</a>로 남겨 주세요. 공개 게시판이므로 개인정보는 적지 마세요.</p>
+</section>
+
+<!-- ───────────────── English ───────────────── -->
+<section id="en" lang="en">
+  <h1>Nomo Trade Privacy Policy</h1>
+  <p class="meta">Effective date: November 18, 2026</p>
+
+  <p>Nomo Trade (the "App") is an <strong>information-only app</strong> that shows US stocks which passed an automated trading bot's checks. This policy explains what information the App handles and what our advertising SDK may collect.</p>
+
+  <h2>1. Information we collect directly</h2>
+  <div class="box">
+    <p>The App <strong>does not require or collect accounts, logins, names, contact details, location, photos or payment information.</strong> The operator does not store personal information that could identify App users.</p>
+  </div>
+
+  <h2>2. Server requests and access logs</h2>
+  <ul>
+    <li>To load stock picks and market data, the App sends read requests to the operator's data server (Supabase). These requests contain no value that identifies you.</li>
+    <li>As with most hosting providers, ordinary access records such as IP address, request time and device/network information may be kept on the server side. The operator does not use these records to identify individuals or for marketing.</li>
+  </ul>
+
+  <h2>3. Information stored on your device</h2>
+  <ul>
+    <li>So that the App can show the last known information offline, the most recently received picks, market data, history and parts of charts are stored <strong>only on your device</strong>.</li>
+    <li>Whether you acknowledged the investment notice (the document version) is also stored on your device.</li>
+    <li>This information is not sent anywhere and is removed when you delete the App.</li>
+  </ul>
+
+  <h2>4. Advertising (Google AdMob)</h2>
+  <ul>
+    <li>The App may show Google AdMob banner ads on some screens. Ads are unrelated to the stock picks.</li>
+    <li>To deliver and measure ads, the Google AdMob SDK may collect the <strong>advertising identifier (IDFA, if you allow tracking), IP address, device information (such as model and OS version) and ad interaction data</strong>.</li>
+    <li>Google processes this information. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a>.</li>
+    <li>If you do not allow tracking, non-personalized ads are shown.</li>
+  </ul>
+
+  <h2>5. Your choices</h2>
+  <ul>
+    <li><strong>Tracking:</strong> You can change whether the App may track you at any time in iOS <em>Settings &gt; Privacy &amp; Security &gt; Tracking</em>. The App works the same either way.</li>
+    <li><strong>Ad consent:</strong> In regions where a consent flow applies (such as the EEA, the UK and Switzerland), you can change your ad privacy settings again from the App's "Info &amp; terms" screen.</li>
+    <li><strong>Deletion:</strong> Deleting the App removes all information stored on your device.</li>
+  </ul>
+
+  <h2>6. Third parties and processing abroad</h2>
+  <ul>
+    <li>The operator does not sell personal information and does not share user information with third parties other than the advertising SDK described in Section 4.</li>
+    <li>The data server (Supabase) and the advertising service (Google) may process information on servers located outside your country.</li>
+  </ul>
+
+  <h2>7. Children</h2>
+  <p>The App is not directed to children under 14 and does not knowingly collect personal information from children.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If this policy changes, we will post the changes and the effective date on this page.</p>
+
+  <h2>9. Contact</h2>
+  <p>For privacy-related questions, please open an issue at <a href="https://github.com/HJ-Lee-coder/NOMOTrade/issues" target="_blank" rel="noopener">GitHub Issues</a>. It is a public board, so please do not post personal information.</p>
+</section>
+
+</main>
+</body>
+</html>
